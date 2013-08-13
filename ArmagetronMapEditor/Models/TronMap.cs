@@ -165,6 +165,9 @@ namespace ArmagetronMapEditor.Models {
         [System.Xml.Serialization.XmlArrayItemAttribute("Setting", IsNullable=false)]
         public ObservableCollection<Setting> Settings {
             get {
+                if (settingsField == null) {
+                    settingsField = new ObservableCollection<Setting>();
+                }
                 return this.settingsField;
             }
             set {
@@ -321,6 +324,9 @@ namespace ArmagetronMapEditor.Models {
         [System.Xml.Serialization.XmlElementAttribute("Zone", typeof(Zone))]
         public ObservableCollection<object> Items {
             get {
+                if (itemsField == null) {
+                    itemsField = new ObservableCollection<object>();
+                }
                 return this.itemsField;
             }
             set {
@@ -724,6 +730,9 @@ namespace ArmagetronMapEditor.Models {
         [System.Xml.Serialization.XmlElementAttribute("Point")]
         public ObservableCollection<Point> Point {
             get {
+                if (this.pointField == null) {
+                    this.pointField = new ObservableCollection<Point>();
+                }
                 return this.pointField;
             }
             set {
@@ -964,6 +973,9 @@ namespace ArmagetronMapEditor.Models {
         [System.Xml.Serialization.XmlElementAttribute("Setting")]
         public ObservableCollection<Setting> Setting {
             get {
+                if (settingField == null) {
+                    settingField = new ObservableCollection<Setting>();
+                }
                 return this.settingField;
             }
             set {
