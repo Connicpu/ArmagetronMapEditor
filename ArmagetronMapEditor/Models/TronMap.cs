@@ -24,8 +24,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Resource : object, System.ComponentModel.INotifyPropertyChanged {
         
         private Map mapField;
@@ -151,8 +151,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Map : object, System.ComponentModel.INotifyPropertyChanged {
 
         private ObservableCollection<Setting> settingsField;
@@ -214,8 +214,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Setting : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string nameField;
@@ -261,8 +261,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class World : object, System.ComponentModel.INotifyPropertyChanged {
         
         private Field fieldField;
@@ -293,8 +293,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Field : object, System.ComponentModel.INotifyPropertyChanged {
         
         private Axes axesField;
@@ -363,8 +363,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Axes : object, System.ComponentModel.INotifyPropertyChanged {
         
         private ObservableCollection<Axis> axisField;
@@ -431,8 +431,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Axis : object, System.ComponentModel.INotifyPropertyChanged {
         
         private double xdirField;
@@ -551,7 +551,7 @@ namespace ArmagetronMapEditor.Models {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.1")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum AxesNormalize {
         
         /// <remarks/>
@@ -566,8 +566,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Spawn : object, System.ComponentModel.INotifyPropertyChanged {
         
         private double xField;
@@ -716,8 +716,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Wall : object, System.ComponentModel.INotifyPropertyChanged {
         
         private ObservableCollection<Point> pointField;
@@ -780,8 +780,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Point : object, System.ComponentModel.INotifyPropertyChanged {
         
         private double xField;
@@ -827,8 +827,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Zone : object, System.ComponentModel.INotifyPropertyChanged {
         
         private ShapeCircle shapeCircleField;
@@ -878,8 +878,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class ShapeCircle : object, System.ComponentModel.INotifyPropertyChanged {
         
         private Point pointField;
@@ -922,7 +922,7 @@ namespace ArmagetronMapEditor.Models {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.1")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum ZoneEffect {
         
         /// <remarks/>
@@ -938,7 +938,7 @@ namespace ArmagetronMapEditor.Models {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.1")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum FieldLogicalBox {
         
         /// <remarks/>
@@ -951,7 +951,7 @@ namespace ArmagetronMapEditor.Models {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.1")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
     public enum ResourceType {
         
         /// <remarks/>
@@ -963,8 +963,8 @@ namespace ArmagetronMapEditor.Models {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.w3.org/namespace/")]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace="http://www.w3.org/namespace/", IsNullable=false)]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true)]
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable=false)]
     public partial class Settings : object, System.ComponentModel.INotifyPropertyChanged {
         
         private ObservableCollection<Setting> settingField;
